@@ -3,6 +3,7 @@ using namespace std;
 
 /*这题过于权威了*/
 // 矩阵乘法（2x2矩阵）模7
+/*这不是我做的*/
 void matMul(long long A[2][2], long long B[2][2], long long mod, long long C[2][2]) {
     C[0][0] = (A[0][0] * B[0][0] + A[0][1] * B[1][0]) % mod;
     C[0][1] = (A[0][0] * B[0][1] + A[0][1] * B[1][1]) % mod;
